@@ -1,4 +1,4 @@
-const CACHE = "today-eat-v1";
+const CACHE = "today-eat-v2";
 const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", (event) => {
