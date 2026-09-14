@@ -1,0 +1,13 @@
+{
+  "name": "今天吃什么 · 智能菜单",
+  "short_name": "今天吃什么",
+  "description": "根据家中已有食材，为你搭配营养、美味、合理的今日菜单。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6ed",
+  "theme_color": "#f5f6ed",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
