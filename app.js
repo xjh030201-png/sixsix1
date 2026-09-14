@@ -179,6 +179,6 @@ $("#install-button").addEventListener("click", async () => {
   installPrompt = null;
   $("#install-button").classList.remove("install-ready");
 });
-if ("serviceWorker" in navigator) {
+if ("serviceWorker" in navigator && ["http:", "https:"].includes(location.protocol)) {
   window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
 }
