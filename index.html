@@ -101,12 +101,36 @@
         <div id="nutrition-summary" class="nutrition-summary"></div>
         <button id="shopping-button" class="shopping-button" type="button">查看缺少的食材</button>
       </section>
+
+      <section id="favorites-panel" class="utility-page hidden" aria-labelledby="favorites-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">MY RECIPES</p>
+            <h2 id="favorites-title">我的收藏</h2>
+          </div>
+          <span id="favorites-count" class="count-badge">0 道菜</span>
+        </div>
+        <p class="utility-intro">在菜谱详情页点“收藏这道菜”，下次就能在这里快速找到。</p>
+        <div id="favorites-list" class="dish-list"></div>
+      </section>
+
+      <section id="library-panel" class="utility-page hidden" aria-labelledby="library-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">INGREDIENT LIBRARY</p>
+            <h2 id="library-title">食材库</h2>
+          </div>
+          <span class="count-badge">点选即可添加</span>
+        </div>
+        <p class="utility-intro">按类别挑选家里现有的食材，它们会自动加入首页的“家里有什么”。</p>
+        <div id="library-list" class="library-list"></div>
+      </section>
     </main>
 
     <nav class="bottom-nav" aria-label="底部导航">
-      <button class="nav-item active" type="button"><span>⌂</span>今日</button>
-      <button class="nav-item" type="button"><span>♡</span>收藏</button>
-      <button class="nav-item" type="button"><span>▣</span>食材库</button>
+      <button class="nav-item active" type="button" data-view="today"><span>⌂</span>今日</button>
+      <button class="nav-item" type="button" data-view="favorites"><span>♡</span>收藏</button>
+      <button class="nav-item" type="button" data-view="library"><span>▣</span>食材库</button>
     </nav>
 
     <dialog id="recipe-dialog" class="recipe-dialog">
@@ -121,6 +145,6 @@
       <button class="dialog-action" type="button">保存到采购清单</button>
     </dialog>
 
-    <script src="./app.js"></script>
+    <script src="./app.js?v=3"></script>
   </body>
 </html>

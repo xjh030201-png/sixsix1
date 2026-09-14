@@ -27,15 +27,36 @@ const recipes = [
   r("辣椒炒肉", "🌶️", "川味", "五花肉、青椒、红椒", 16, 430, 23, "五花肉 180g|青椒 3 个|红椒 1 个|豆豉 10g|蒜 2 瓣|生抽 10ml", "五花肉冷冻 20 分钟后更好切薄片；青红椒拍松切段，蒜切片，豆豉略剁碎。|冷锅放肉片开中火慢慢煸，煸出部分油脂、边缘微卷时盛出；油太多可倒出一半。|用锅中余油下青红椒大火煸炒约 2 分钟，椒皮有虎皮纹时加入蒜片和豆豉。|倒回肉片，加入生抽，快速翻炒 30 秒；肉片重新变热且辣椒仍脆时关火。"),
   r("冬瓜丸子汤", "🍵", "家常", "冬瓜、肉末、葱、姜", 25, 210, 18, "冬瓜 300g|猪肉末 180g|鸡蛋 1/2 个|姜 5g|葱花少许|淀粉 5g", "冬瓜去皮去瓤切厚片；肉末加蛋液、姜末、盐和淀粉，顺一个方向搅到发黏。|锅中烧约 700ml 水至微沸，不要大开；手上沾水把肉馅挤成丸子，用勺子轻放入锅。|所有丸子浮起后撇去浮沫，转中小火煮 5 分钟，再放冬瓜片煮 6 分钟。|冬瓜变半透明时加盐和白胡椒，关火撒葱花；先喝汤再吃丸子口感最佳。"),
   r("三文鱼能量沙拉", "🥗", "轻食", "三文鱼、生菜、黄瓜、玉米、鸡蛋", 18, 350, 28, "三文鱼 150g|生菜 1 把|黄瓜 1/2 根|玉米粒 60g|鸡蛋 1 个|酸奶 30g", "三文鱼擦干后两面撒盐和黑胡椒；鸡蛋冷水下锅，水沸后煮 8 分钟，过凉水去壳。|平底锅中火预热，少油煎三文鱼，每面约 2 分钟；中心略带粉色可保持嫩度。|生菜洗净后务必甩干，黄瓜切片，玉米粒焯水；酸奶加少许盐、黑胡椒和柠檬汁调成酱。|所有蔬菜铺盘，放切块三文鱼和对半鸡蛋，最后淋酸奶酱；吃前再拌避免生菜出水。"),
-  r("紫菜蛋花汤", "🍲", "家常", "紫菜、鸡蛋、豆腐", 8, 110, 10, "紫菜 5g|鸡蛋 1 个|嫩豆腐 100g|虾皮少许|葱花少许|香油 3ml", "紫菜撕小片，豆腐切小丁，鸡蛋打散；把紫菜、虾皮、盐和葱花先放入汤碗。|锅中加 500ml 水烧开，放豆腐丁煮 2 分钟；可加一点白胡椒提鲜。|转小火让水面保持微沸，用筷子搅出漩涡，蛋液沿着筷子缓慢细流倒入锅中。|等蛋花全部浮起后连汤倒入放好紫菜的碗里，淋香油，利用余温把紫菜泡开。")
+  r("紫菜蛋花汤", "🍲", "家常", "紫菜、鸡蛋、豆腐", 8, 110, 10, "紫菜 5g|鸡蛋 1 个|嫩豆腐 100g|虾皮少许|葱花少许|香油 3ml", "紫菜撕小片，豆腐切小丁，鸡蛋打散；把紫菜、虾皮、盐和葱花先放入汤碗。|锅中加 500ml 水烧开，放豆腐丁煮 2 分钟；可加一点白胡椒提鲜。|转小火让水面保持微沸，用筷子搅出漩涡，蛋液沿着筷子缓慢细流倒入锅中。|等蛋花全部浮起后连汤倒入放好紫菜的碗里，淋香油，利用余温把紫菜泡开。"),
+  r("鸡胸肉炒西兰花", "🥦", "轻食", "鸡胸肉、西兰花、胡萝卜", 18, 260, 38, "鸡胸肉 220g|西兰花 1/2 颗|胡萝卜 1/2 根|蒜 2 瓣|生抽 10ml", "鸡胸肉逆纹切片，用生抽、黑胡椒和淀粉抓匀；西兰花切小朵，胡萝卜切薄片。|西兰花和胡萝卜沸水焯 50 秒，捞出沥干，缩短后续炒制时间。|热锅下油，鸡肉平铺煎至两面发白后盛出；原锅下蒜末炒香。|倒入蔬菜和鸡肉，大火翻炒 1 分钟，沿锅边淋 2 汤匙水，收干后出锅。"),
+  r("番茄鸡胸肉意面", "🍝", "轻食", "鸡胸肉、番茄、意面", 25, 460, 40, "鸡胸肉 180g|番茄 2 个|意面 160g|洋葱 1/4 个|蒜 2 瓣", "意面按包装时间煮至八成熟，留半碗面汤；鸡胸肉切丁，用盐和黑胡椒腌 5 分钟。|番茄去蒂切丁，洋葱和蒜切末；鸡胸肉在热锅中煎至表面金黄后盛出。|原锅炒香洋葱蒜末，下番茄中火压出汁，加少量面汤煮成浓稠酱汁。|倒回鸡肉和意面，大火翻拌 1 分钟使酱汁挂面，尝味后撒黑胡椒。"),
+  r("土豆鸡蛋饼", "🫓", "家常", "土豆、鸡蛋、胡萝卜", 20, 280, 14, "土豆 1 个|鸡蛋 2 个|胡萝卜 1/3 根|面粉 30g|葱花少许", "土豆和胡萝卜擦细丝，清水冲去部分淀粉后挤干；葱切末。|碗中打入鸡蛋，加面粉、盐和少量清水，调成能缓慢流动的糊。|混入土豆丝和胡萝卜丝，确保每根蔬菜丝均匀裹上蛋糊。|平底锅刷油，摊成约 1 厘米厚的圆饼，小火每面煎 4 分钟至金黄熟透。"),
+  r("菠菜豆腐蛋花汤", "🥬", "家常", "菠菜、豆腐、鸡蛋", 12, 160, 15, "菠菜 1 把|嫩豆腐 150g|鸡蛋 1 个|姜 2 片|香油少许", "菠菜洗净切段，豆腐切小块，鸡蛋打散；锅中加 600ml 水和姜片烧开。|先放豆腐小火煮 3 分钟，让汤底带出豆香，再加盐和白胡椒。|放入菠菜，等颜色转翠绿后保持微沸，不要久煮以免发黄。|沿锅边淋入蛋液，蛋花浮起后立刻关火，滴几滴香油即可。"),
+  r("牛肉西兰花", "🥩", "粤式", "牛肉、西兰花、胡萝卜", 20, 310, 32, "牛肉 200g|西兰花 1/2 颗|胡萝卜 1/2 根|蚝油 10ml|蒜 2 瓣", "牛肉逆纹切片，用生抽、淀粉和少量油抓匀；西兰花和胡萝卜焯水 1 分钟。|热锅下油，牛肉滑炒到七成熟立刻盛出，保留锅内肉汁。|蒜末爆香后倒入西兰花和胡萝卜，大火翻炒 40 秒。|回锅牛肉，加入蚝油和 2 汤匙水，快速翻匀至汁液包裹食材。"),
+  r("虾仁玉米炒蛋", "🦐", "家常", "虾仁、玉米、鸡蛋", 15, 290, 28, "虾仁 150g|玉米粒 100g|鸡蛋 3 个|葱花少许|牛奶 15ml", "虾仁擦干后用盐和白胡椒腌 5 分钟；鸡蛋加牛奶和少许盐打散。|玉米粒沸水焯 1 分钟后沥干，保证下锅后不出水。|热锅下油，虾仁炒到变红后加入玉米粒翻炒 30 秒。|转中小火倒入蛋液，用锅铲轻推至半凝固，撒葱花后余温焖 30 秒。"),
+  r("香菇鸡腿焖饭", "🍚", "家常", "鸡腿肉、香菇、胡萝卜、米饭", 35, 510, 30, "鸡腿肉 250g|香菇 5 朵|胡萝卜 1/2 根|大米 2 杯|生抽 15ml", "大米淘净后按平时煮饭的水量浸泡 15 分钟；鸡腿肉去骨切丁，香菇和胡萝卜切丁。|鸡腿肉用生抽、姜末腌 10 分钟，锅中少油煎到表面金黄。|加入香菇和胡萝卜炒香，倒在米上，连同煎出的汁水一起加入电饭煲。|按煮饭键完成后焖 8 分钟再翻松，避免底部焦糊并让味道均匀。"),
+  r("芹菜肉丝", "🥬", "家常", "芹菜、猪里脊、胡萝卜", 16, 270, 27, "芹菜 250g|猪里脊 180g|胡萝卜 1/3 根|姜 2 片|生抽 10ml", "芹菜撕去老筋切斜段，胡萝卜切丝；里脊逆纹切丝，用生抽和淀粉抓匀。|锅中烧水，把芹菜和胡萝卜焯 30 秒后迅速捞出，保留脆度。|热锅下油，姜丝炒香后放肉丝，大火滑炒至刚变色。|倒入芹菜和胡萝卜，快速翻炒 40 秒，补少许盐后马上出锅。"),
+  r("黄瓜鸡蛋卷", "🥒", "轻食", "黄瓜、鸡蛋", 12, 180, 13, "黄瓜 1 根|鸡蛋 3 个|胡萝卜 1/4 根|盐少许|黑胡椒少许", "黄瓜和胡萝卜切极细丝，撒少许盐静置 3 分钟后挤干水分。|鸡蛋打散，加入一小撮盐，平底锅刷薄油，摊成两张薄蛋皮。|把黄瓜丝和胡萝卜丝均匀铺在蛋皮上，撒一点黑胡椒。|从一端卷紧后切成 3 厘米小段，切口朝上摆盘即可。"),
+  r("南瓜牛奶羹", "🎃", "轻食", "南瓜、牛奶", 25, 210, 8, "南瓜 400g|牛奶 250ml|玉米粒 30g|盐少许|黑胡椒少许", "南瓜去皮去籽切薄片，上锅蒸 15 分钟至筷子轻碰即碎。|把蒸好的南瓜加一半牛奶打成细腻泥，喜欢颗粒口感可保留少量南瓜块。|南瓜泥倒入小锅，加入剩余牛奶和玉米粒，小火不断搅拌加热。|汤羹冒热气后用盐和黑胡椒调味，切勿煮沸以免牛奶结絮。"),
+  r("海带豆腐汤", "🍵", "粤式", "海带、豆腐、胡萝卜", 20, 130, 11, "海带结 150g|豆腐 150g|胡萝卜 1/3 根|姜 2 片|葱花少许", "海带提前泡发后冲洗，切小段；豆腐切块，胡萝卜切薄片。|锅中加 700ml 水、姜片和海带，大火煮开后转小火煮 10 分钟。|加入胡萝卜和豆腐，保持小火再煮 5 分钟，避免沸腾过猛弄碎豆腐。|加盐和白胡椒调味，关火后撒葱花，静置 1 分钟再盛出。"),
+  r("茄子肉末拌面", "🍜", "家常", "茄子、肉末、面条", 25, 480, 25, "茄子 1 根|猪肉末 150g|面条 200g|番茄 1 个|蒜 3 瓣", "茄子切小丁后拌少量油，微波炉高火 3 分钟或蒸软，减少吸油。|锅中炒散肉末，下蒜末炒香，再放番茄丁炒到出汁。|加入软茄子、生抽和半碗水，中小火煮 5 分钟至成为浓稠肉酱。|另锅煮面至熟，捞入肉酱锅中翻拌，让每根面条均匀挂汁后装盘。"),
+  r("牛腩胡萝卜炖锅", "🍲", "家常", "牛腩、胡萝卜、洋葱", 60, 360, 33, "牛腩 400g|胡萝卜 2 根|洋葱 1 个|番茄 1 个|姜 3 片", "牛腩切块冷水下锅，水沸后撇去浮沫，捞出用温水冲洗干净。|锅中少油炒香洋葱和姜片，加入牛腩翻炒 2 分钟锁住香气。|加热水没过牛腩，小火盖盖炖 40 分钟；高压锅可缩短到 20 分钟。|放胡萝卜和番茄，再炖 15 分钟至胡萝卜软透，最后加盐调味。"),
+  r("毛豆炒肉末", "🫛", "家常", "毛豆、肉末、红椒", 18, 320, 25, "毛豆仁 200g|猪肉末 150g|红椒 1 个|蒜 2 瓣|生抽 10ml", "毛豆仁沸水焯 2 分钟后沥干；红椒切小丁，蒜切末。|热锅下油，肉末用锅铲压散，炒至水分收干、边缘微焦。|加入蒜末和红椒炒香，再下毛豆仁翻炒 1 分钟。|加入生抽和 3 汤匙水，盖盖焖 3 分钟让毛豆熟透，开盖收汁。"),
+  r("豆腐蔬菜沙拉", "🥗", "轻食", "豆腐、生菜、番茄、黄瓜", 15, 230, 16, "北豆腐 200g|生菜 1 把|番茄 1 个|黄瓜 1/2 根|酸奶 30g", "豆腐切块后用厨房纸吸干，平底锅少油煎至四面金黄，放凉备用。|生菜洗净彻底甩干，番茄切瓣，黄瓜切片，避免带太多水稀释酱汁。|酸奶加盐、黑胡椒和少许生抽搅匀，调成清爽的低脂酱汁。|把蔬菜和温热豆腐分层摆盘，食用前才淋酱并轻轻拌匀。"),
+  r("莲藕排骨汤", "🍲", "家常", "莲藕、排骨、胡萝卜", 75, 350, 29, "排骨 500g|莲藕 300g|胡萝卜 1 根|姜 3 片|葱结 1 个", "排骨冷水下锅，加姜片煮开后焯 3 分钟，捞出用温水洗净血沫。|莲藕去皮切厚片，胡萝卜切滚刀块，莲藕切好后可泡清水防氧化。|排骨加约 1.5L 热水和姜片，大火煮开后转小火炖 45 分钟。|加入莲藕和胡萝卜再炖 25 分钟，最后 5 分钟加盐，关火后焖 10 分钟更香。")
 ];
 
 const savedState = JSON.parse(localStorage.getItem("today-eat-state") || "{}");
-const state = { selected: Array.isArray(savedState.selected) ? savedState.selected : [], goal: savedState.goal || "均衡营养", menuIndex: 0 };
+const state = { selected: Array.isArray(savedState.selected) ? savedState.selected : [], favorites: Array.isArray(savedState.favorites) ? savedState.favorites : [], goal: savedState.goal || "均衡营养", menuIndex: 0 };
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
-const saveState = () => localStorage.setItem("today-eat-state", JSON.stringify({ selected: state.selected, goal: state.goal }));
+const saveState = () => localStorage.setItem("today-eat-state", JSON.stringify({ selected: state.selected, favorites: state.favorites, goal: state.goal }));
 const syncIngredientButtons = () => document.querySelectorAll(".quick-chip").forEach((button) => button.classList.toggle("active", state.selected.includes(button.dataset.ingredient)));
+const libraryGroups = {
+  "肉蛋海鲜": ["鸡蛋", "鸡胸肉", "鸡腿肉", "猪里脊", "牛肉", "牛腩", "羊肉", "五花肉", "排骨", "肉末", "虾仁", "鲈鱼", "三文鱼"],
+  "蔬菜菌菇": ["番茄", "西兰花", "菠菜", "生菜", "白菜", "芹菜", "冬瓜", "黄瓜", "茄子", "青椒", "红椒", "土豆", "胡萝卜", "洋葱", "玉米", "南瓜", "莲藕", "香菇", "口蘑", "木耳"],
+  "主食与豆乳": ["豆腐", "腐竹", "牛奶", "酸奶", "奶酪", "米饭", "面条", "意面", "粉丝", "年糕", "馒头", "花生", "豌豆"]
+};
 
 function renderSelected() {
   $("#selected-ingredients").innerHTML = state.selected.map((ingredient) => `<span class="selected-tag">${escapeHtml(ingredient)}<button type="button" data-remove="${escapeHtml(ingredient)}" aria-label="移除${escapeHtml(ingredient)}">×</button></span>`).join("");
@@ -56,27 +77,95 @@ function renderSearchResults(query) {
   $("#ingredient-results").innerHTML = [...matches.map((item) => `<button class="ingredient-option" type="button" data-add="${escapeHtml(item)}">+ 添加 ${escapeHtml(item)}</button>`), custom ? `<button class="ingredient-option custom-option" type="button" data-add="${escapeHtml(query)}">+ 添加“${escapeHtml(query)}”到我的食材</button>` : ""].join("");
 }
 
-function recipeScore(recipe, cuisine) {
-  const matches = recipe.tags.filter((tag) => state.selected.includes(tag)).length;
+function recipeMatch(recipe) {
+  const matched = recipe.tags.filter((tag) => state.selected.includes(tag));
+  return { matched, missing: recipe.tags.filter((tag) => !state.selected.includes(tag)) };
+}
+function recipeScore(recipe, cuisine, covered = new Set()) {
+  const { matched, missing } = recipeMatch(recipe);
   const cuisineMatch = cuisine === "不限" || cuisine === recipe.cuisine ? 2 : 0;
   const goalBoost = state.goal === "高蛋白" ? recipe.protein / 8 : state.goal === "减脂轻食" ? (recipe.kcal < 310 ? 3 : 0) : state.goal === "省时快手" ? (recipe.minutes <= 15 ? 3 : 0) : 1;
-  return matches * 6 + cuisineMatch + goalBoost;
+  const newCoverage = matched.filter((tag) => !covered.has(tag)).length;
+  return matched.length * 12 + newCoverage * 8 - missing.length * 3 + cuisineMatch + goalBoost;
 }
-function chooseMenu() { const ranked = [...recipes].sort((a, b) => recipeScore(b, $("#cuisine-select").value) - recipeScore(a, $("#cuisine-select").value)); const shifted = ranked.slice(state.menuIndex).concat(ranked.slice(0, state.menuIndex)); return shifted.slice(0, 3); }
+function chooseMenu() {
+  const selectedMatches = recipes.filter((recipe) => recipe.tags.some((tag) => state.selected.includes(tag)));
+  if (!selectedMatches.length) return [];
+  const cuisine = $("#cuisine-select").value;
+  const cuisineMatches = cuisine === "不限" ? selectedMatches : selectedMatches.filter((recipe) => recipe.cuisine === cuisine);
+  const eligible = cuisineMatches.length ? cuisineMatches : selectedMatches;
+  const remaining = [...eligible];
+  const selected = [];
+  const covered = new Set();
+  const start = state.menuIndex % remaining.length;
+  remaining.push(...remaining.splice(0, start));
+  while (remaining.length && selected.length < 3) {
+    let bestIndex = 0;
+    for (let index = 1; index < remaining.length; index += 1) {
+      if (recipeScore(remaining[index], cuisine, covered) > recipeScore(remaining[bestIndex], cuisine, covered)) bestIndex = index;
+    }
+    const [recipe] = remaining.splice(bestIndex, 1);
+    selected.push(recipe);
+    recipeMatch(recipe).matched.forEach((tag) => covered.add(tag));
+  }
+  return selected;
+}
 
 function renderRecommendation() {
   const menu = chooseMenu(), people = Number($("#people-select").value);
-  const used = [...new Set(menu.flatMap((dish) => dish.tags).filter((tag) => state.selected.includes(tag)))];
-  const missing = [...new Set(menu.flatMap((dish) => dish.tags).filter((tag) => !state.selected.includes(tag)))];
+  if (!menu.length) {
+    $("#menu-reason").textContent = state.selected.length ? `还没有收录能直接使用“${state.selected.join("、")}”的菜谱。请在食材库补充主要食材，或换一个已收录食材再试。` : "请先添加至少一种家中食材，我只会推荐与你已选食材有关的菜。";
+    $("#dish-list").innerHTML = '<div class="empty-state">暂时没有相关菜谱。试试添加鸡蛋、番茄、牛肉、豆腐、青椒等食材。</div>';
+    $("#nutrition-summary").classList.add("hidden"); $("#shopping-button").classList.add("hidden");
+    $("#recommendation").classList.remove("hidden"); $("#recommendation").scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+  const used = [...new Set(menu.flatMap((dish) => recipeMatch(dish).matched))];
+  const missing = [...new Set(menu.flatMap((dish) => recipeMatch(dish).missing))];
   const kcal = menu.reduce((total, dish) => total + dish.kcal, 0) * people, protein = menu.reduce((total, dish) => total + dish.protein, 0) * people;
-  $("#menu-reason").textContent = used.length ? `优先用了你已有的 ${used.join("、")}，从 ${recipes.length} 道菜中搭配出一份${state.goal}的 ${people} 人餐。` : `已记录你的食材；目前没有直接匹配的菜谱，先从 ${recipes.length} 道${state.goal}菜中为你搭配，可补充缺少食材。`;
-  $("#dish-list").innerHTML = menu.map((dish, index) => `<button class="dish-card" type="button" data-recipe="${index}"><span class="dish-emoji">${dish.emoji}</span><span><span class="dish-name">${dish.name}</span><span class="dish-meta">${dish.minutes} 分钟 · ${dish.kcal} kcal · ${dish.protein}g 蛋白质</span></span><span class="dish-arrow">›</span></button>`).join("");
+  $("#menu-reason").textContent = `这 ${menu.length} 道菜都直接使用了你已有的 ${used.join("、")}；共需补充 ${missing.length} 种辅助食材。`;
+  $("#dish-list").innerHTML = menu.map((dish, index) => { const matched = recipeMatch(dish).matched.join("、"); return `<button class="dish-card" type="button" data-recipe="${index}"><span class="dish-emoji">${dish.emoji}</span><span><span class="dish-name">${dish.name}</span><span class="dish-meta">已用：${matched} · 还差 ${recipeMatch(dish).missing.length} 种主料</span></span><span class="dish-arrow">›</span></button>`; }).join("");
   $("#nutrition-summary").innerHTML = `<div><strong>${Math.round(kcal)}</strong><span>总热量 kcal</span></div><div><strong>${Math.round(protein)}g</strong><span>蛋白质</span></div><div><strong>${menu.reduce((total, dish) => total + dish.minutes, 0)} 分钟</strong><span>烹饪时间</span></div>`;
   $("#shopping-list").innerHTML = missing.length ? missing.map((item) => `<li>${item}</li>`).join("") : "<li>太棒了，现有食材已经足够！</li>";
+  $("#nutrition-summary").classList.remove("hidden"); $("#shopping-button").classList.remove("hidden");
   $("#recommendation").classList.remove("hidden"); $("#recommendation").scrollIntoView({ behavior: "smooth", block: "start" });
   document.querySelectorAll(".dish-card").forEach((button) => button.addEventListener("click", () => openRecipe(menu[button.dataset.recipe])));
 }
-function openRecipe(recipe) { $("#recipe-content").innerHTML = `<div class="recipe-category">${recipe.cuisine.toUpperCase()} · ${state.goal}</div><h2 class="recipe-title">${recipe.emoji} ${recipe.name}</h2><p class="recipe-info">约 ${recipe.minutes} 分钟 · ${recipe.kcal} kcal / 人 · 蛋白质 ${recipe.protein}g</p><h3 class="recipe-section-title">所需食材</h3><ul class="recipe-ingredients">${recipe.ingredients.map((item) => `<li>${item}</li>`).join("")}</ul><h3 class="recipe-section-title">详细步骤</h3><ol class="recipe-steps">${recipe.steps.map((step) => `<li>${step}</li>`).join("")}</ol>`; $("#recipe-dialog").showModal(); }
+function openRecipe(recipe) {
+  const isFavorited = state.favorites.includes(recipe.name);
+  $("#recipe-content").innerHTML = `<div class="recipe-category">${recipe.cuisine.toUpperCase()} · ${state.goal}</div><h2 class="recipe-title">${recipe.emoji} ${recipe.name}</h2><p class="recipe-info">约 ${recipe.minutes} 分钟 · ${recipe.kcal} kcal / 人 · 蛋白质 ${recipe.protein}g</p><h3 class="recipe-section-title">所需食材</h3><ul class="recipe-ingredients">${recipe.ingredients.map((item) => `<li>${item}</li>`).join("")}</ul><h3 class="recipe-section-title">详细步骤</h3><ol class="recipe-steps">${recipe.steps.map((step) => `<li>${step}</li>`).join("")}</ol><button id="favorite-recipe" class="favorite-action ${isFavorited ? "is-favorited" : ""}" type="button">${isFavorited ? "♥ 已收藏这道菜" : "♡ 收藏这道菜"}</button>`;
+  $("#favorite-recipe").addEventListener("click", () => toggleFavorite(recipe.name));
+  if (!$("#recipe-dialog").open) $("#recipe-dialog").showModal();
+}
+
+function toggleFavorite(recipeName) {
+  state.favorites = state.favorites.includes(recipeName) ? state.favorites.filter((name) => name !== recipeName) : [...state.favorites, recipeName];
+  saveState(); renderFavorites();
+  const recipe = recipes.find((item) => item.name === recipeName);
+  if (recipe) openRecipe(recipe);
+}
+
+function renderFavorites() {
+  const favoriteRecipes = state.favorites.map((name) => recipes.find((recipe) => recipe.name === name)).filter(Boolean);
+  $("#favorites-count").textContent = `${favoriteRecipes.length} 道菜`;
+  $("#favorites-list").innerHTML = favoriteRecipes.length ? favoriteRecipes.map((dish) => `<button class="dish-card" type="button" data-favorite="${escapeHtml(dish.name)}"><span class="dish-emoji">${dish.emoji}</span><span><span class="dish-name">${dish.name}</span><span class="dish-meta">${dish.minutes} 分钟 · ${dish.cuisine} · 点击查看做法</span></span><span class="dish-arrow">›</span></button>`).join("") : '<div class="empty-state">暂无收藏。打开任意菜谱详情，点击“收藏这道菜”即可保存在这里。</div>';
+  document.querySelectorAll("[data-favorite]").forEach((button) => button.addEventListener("click", () => openRecipe(recipes.find((recipe) => recipe.name === button.dataset.favorite))));
+}
+
+function renderLibrary() {
+  $("#library-list").innerHTML = Object.entries(libraryGroups).map(([group, foods]) => `<div class="library-group"><h3>${group}</h3><div class="library-chips">${foods.map((food) => `<button class="library-chip ${state.selected.includes(food) ? "is-added" : ""}" type="button" data-library-food="${food}">${state.selected.includes(food) ? "✓ " : "+ "}${food}</button>`).join("")}</div></div>`).join("");
+  document.querySelectorAll("[data-library-food]").forEach((button) => button.addEventListener("click", () => { addIngredient(button.dataset.libraryFood); renderLibrary(); }));
+}
+
+function showView(view) {
+  [".pantry-card", ".preferences", ".recommend-button", "#recommendation"].forEach((selector) => $(selector).classList.toggle("hidden", view !== "today"));
+  $("#favorites-panel").classList.toggle("hidden", view !== "favorites");
+  $("#library-panel").classList.toggle("hidden", view !== "library");
+  document.querySelectorAll(".nav-item").forEach((button) => button.classList.toggle("active", button.dataset.view === view));
+  if (view === "favorites") renderFavorites();
+  if (view === "library") renderLibrary();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
 $("#ingredient-search").addEventListener("input", (event) => { const query = event.target.value.trim(); if (query) renderSearchResults(query); else $("#ingredient-results").innerHTML = ""; });
 $("#ingredient-search").addEventListener("keydown", (event) => { if (event.key === "Enter") { event.preventDefault(); addIngredient(event.target.value); } });
@@ -89,7 +178,8 @@ $("#refresh-button").addEventListener("click", () => { state.menuIndex = (state.
 $("#shopping-button").addEventListener("click", () => $("#shopping-dialog").showModal());
 document.querySelectorAll(".dialog-close").forEach((button) => button.addEventListener("click", () => button.closest("dialog").close()));
 document.querySelectorAll("dialog").forEach((dialog) => dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); }));
-renderSelected(); document.querySelectorAll(".goal-chip").forEach((chip) => chip.classList.toggle("active", chip.dataset.goal === state.goal));
+document.querySelectorAll(".nav-item").forEach((button) => button.addEventListener("click", () => showView(button.dataset.view)));
+renderSelected(); renderFavorites(); renderLibrary(); document.querySelectorAll(".goal-chip").forEach((chip) => chip.classList.toggle("active", chip.dataset.goal === state.goal));
 let installPrompt;
 window.addEventListener("beforeinstallprompt", (event) => { event.preventDefault(); installPrompt = event; $("#install-button").classList.add("install-ready"); });
 $("#install-button").addEventListener("click", async () => { if (!installPrompt) { alert("在浏览器菜单中选择“安装应用”或“添加到主屏幕”，即可像普通 App 一样使用。"); return; } installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; $("#install-button").classList.remove("install-ready"); });

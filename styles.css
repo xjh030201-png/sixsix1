@@ -65,6 +65,16 @@ select { width: 100%; padding: 11px 9px; border: 1px solid var(--line); border-r
 .nutrition-summary strong { display: block; color: var(--green); font-size: 16px; }
 .nutrition-summary span { color: var(--muted); font-size: 11px; }
 .shopping-button, .dialog-action { width: 100%; padding: 12px; border: 1px solid var(--green); border-radius: 12px; background: transparent; color: var(--green); font-size: 14px; font-weight: 700; }
+.utility-page { margin-top: 22px; padding: 22px 20px; border: 1px solid var(--line); border-radius: 23px; background: var(--card); box-shadow: var(--shadow); }
+.utility-intro { margin: 10px 0 16px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.library-list { display: grid; gap: 17px; }
+.library-group h3 { margin: 0 0 9px; color: var(--green); font-size: 14px; }
+.library-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.library-chip { border: 1px solid var(--line); border-radius: 999px; padding: 8px 11px; background: #fafaf4; color: var(--ink); font-size: 13px; }
+.library-chip.is-added { border-color: var(--green); background: var(--green-light); color: var(--green); font-weight: 700; }
+.empty-state { padding: 21px 13px; border: 1px dashed #b8cbb8; border-radius: 14px; color: var(--muted); text-align: center; font-size: 13px; line-height: 1.6; }
+.favorite-action { width: 100%; margin-top: 20px; padding: 12px; border: 1px solid var(--orange); border-radius: 12px; background: #fff7f2; color: var(--orange); font-size: 14px; font-weight: 700; }
+.favorite-action.is-favorited { border-color: var(--orange); background: var(--orange); color: #fff; }
 .bottom-nav { position: fixed; z-index: 2; bottom: 0; left: 50%; display: flex; justify-content: space-around; width: min(100%, 540px); padding: 9px 16px max(10px, env(safe-area-inset-bottom)); transform: translateX(-50%); border-top: 1px solid var(--line); background: rgba(255,254,250,.95); backdrop-filter: blur(12px); }
 .nav-item { display: grid; gap: 2px; border: 0; background: transparent; color: #9aa297; font-size: 11px; }
 .nav-item span { font-size: 19px; }
